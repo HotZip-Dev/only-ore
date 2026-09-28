@@ -1,3 +1,4 @@
+-- SPDX-License-Identifier: GPL-3.0-or-later
 -- OnlyOres.lua
 -- Records every ore spawn point you mine (saved in OnlyOresDB, i.e.
 -- WTF/Account/<acct>/SavedVariables/OnlyOres.lua) and draws each one as a pin on

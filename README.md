@@ -36,4 +36,4 @@ OnlyOres remembers every ore node you mine and puts it on your map, so you can b
 
 ## License
 
-MIT © HotZip Addons · [hotzip.dev](https://hotzip.dev)
+© 2026 HotZip Addons. Licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html). · [hotzip.dev](https://hotzip.dev)

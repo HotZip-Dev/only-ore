@@ -6,9 +6,9 @@
 ## IconTexture: Interface\Icons\Trade_Mining
 ## SavedVariables: OnlyOresDB
 ## X-Website: https://hotzip.dev
-## X-License: MIT
+## X-License: GPL-3.0
 ## X-Curse-Project-ID:
-## X-Wago-ID:
+## X-Wago-ID: vNAWgQKo
 
 OnlyOres.lua
 OnlyOres.xml
