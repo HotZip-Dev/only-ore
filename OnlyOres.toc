@@ -1,0 +1,14 @@
+## Interface: 16001
+## Title: OnlyOres
+## Notes: Remembers every ore node you mine and pins it on the world map and minimap with a "last mined" timer.
+## Author: HotZip Addons
+## Version: @project-version@
+## IconTexture: Interface\Icons\Trade_Mining
+## SavedVariables: OnlyOresDB
+## X-Website: https://hotzip.dev
+## X-License: MIT
+## X-Curse-Project-ID:
+## X-Wago-ID:
+
+OnlyOres.lua
+OnlyOres.xml

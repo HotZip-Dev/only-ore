@@ -1,0 +1,3 @@
+# Local packager output
+.release/
+*.zip

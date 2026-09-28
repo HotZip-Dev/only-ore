@@ -1,0 +1,9 @@
+# BigWigs packager config. package-as MUST match the addon folder / .toc name,
+# which can differ from the repo name (repo: only-ore, addon: OnlyOres).
+package-as: OnlyOres
+
+# Files in the repo that should NOT ship in the zip.
+# (Dotfiles like .github/ and .pkgmeta are excluded automatically.)
+ignore:
+  - README.md
+  - docs

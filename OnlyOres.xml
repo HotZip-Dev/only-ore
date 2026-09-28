@@ -1,0 +1,15 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- No <Scripts> here: MapCanvas calls the mixin's OnLoad itself and
+         asserts that OnEnter/OnLeave are unset (see OnlyOresPinMixin). -->
+    <Frame name="OnlyOresPinTemplate" mixin="OnlyOresPinMixin" enableMouse="true" virtual="true">
+        <Size x="18" y="18"/>
+        <Layers>
+            <Layer level="ARTWORK">
+                <Texture parentKey="Icon" file="Interface\Icons\Trade_Mining" setAllPoints="true"/>
+            </Layer>
+            <Layer level="OVERLAY">
+                <Texture parentKey="Border" file="Interface\Minimap\MiniMap-TrackingBorder" hidden="true"/>
+            </Layer>
+        </Layers>
+    </Frame>
+</Ui>

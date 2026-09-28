@@ -1,0 +1,30 @@
+# Builds the addon zip and publishes it to CurseForge, Wago and GitHub Releases
+# whenever a version tag (v1.0.0, v1.2.3-beta1, ...) is pushed.
+# See E:\wa-dev\forever\docs\RELEASING.md for the full workflow.
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # create the GitHub Release
+    env:
+      # Repo secrets (Settings > Secrets > Actions). Free-plan orgs cannot share
+      # org-level secrets with private repos, so each addon repo sets its own.
+      CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history so the packager can build a changelog
+
+      # Detects the game flavor from "## Interface: 16001" (16xxx = Forever),
+      # replaces @project-version@ with the tag, zips, and uploads to every
+      # platform whose project ID is in the TOC (X-Curse-Project-ID, X-Wago-ID).
+      - uses: BigWigsMods/packager@v2
