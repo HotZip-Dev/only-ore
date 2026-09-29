@@ -13,7 +13,7 @@ Status: CurseForge project ID `1716887` · Wago project ID `vNAWgQKo` (also add 
 | Field | Value |
 |---|---|
 | Name | `OnlyOres` |
-| Logo | `docs/logo.png` (square PNG, ≥400×400, original art) |
+| Logo | `docs/logo.png` (square PNG, ≥400×400, original art) + `docs/logo-256.png` (256×256 copy for sites that require it) |
 | License | GPL v3 |
 | Source code | *(blank while the repo is private; if made public: `https://github.com/HotZip-Dev/only-ore`)* |
 | Website | *(blank until https://hotzip.dev is live; it had no working HTTPS site as of 2026-09-28)* |
