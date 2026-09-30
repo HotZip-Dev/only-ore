@@ -7,7 +7,7 @@
 ## SavedVariables: OnlyOresDB
 ## X-Website: https://hotzip.dev
 ## X-License: GPL-3.0
-## X-Curse-Project-ID: 1716887
+## X-Curse-Project-ID: 1719476
 ## X-Wago-ID: vNAWgQKo
 
 OnlyOres.lua

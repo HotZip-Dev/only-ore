@@ -4,7 +4,7 @@ Copy-paste source for the CurseForge and Wago project pages, field by field in
 form order. Keep in sync when features change. (`docs/` is excluded from the
 addon zip via `.pkgmeta`.)
 
-Status: CurseForge project ID `1716887` · Wago project ID `vNAWgQKo` (also add both to `OnlyOres.toc`)
+Status: CurseForge project ID `1719476` (re-created 2026-09-30; old `1716887` deleted) · Wago project ID `vNAWgQKo` (unchanged) (also add both to `OnlyOres.toc`)
 
 ---
 
